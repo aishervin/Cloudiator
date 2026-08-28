@@ -1,13 +1,7 @@
 name = "cloudiator"
-main = "web/src/index.ts"
 compatibility_date = "2026-08-28"
-workers_dev = true
-keep_vars = true
-
-[assets]
-directory = "web/assets"
-binding = "ASSETS"
-run_worker_first = true
+pages_build_output_dir = "./dist"
+compatibility_flags = ["nodejs_compat"]
 
 [[kv_namespaces]]
 binding = "bpbkv"
