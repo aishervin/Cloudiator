@@ -1,0 +1,35 @@
+{
+	"name": "bpb-wizard",
+	"version": "3.0.2",
+	"description": "BPB Wizard web edition",
+	"main": "public/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bia-pain-bache/BPB-Wizard.git"
+	},
+	"author": "bia-pain-bache",
+	"license": "GPL-3.0",
+	"private": true,
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/bia-pain-bache/BPB-Wizard/issues"
+	},
+	"homepage": "https://github.com/bia-pain-bache/BPB-Wizard#readme",
+	"scripts": {
+		"dev": "tsx watch server.ts",
+		"build": "echo 'No build required'",
+		"start": "tsx server.ts"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.6",
+		"@types/multer": "^2.2.0",
+		"tsx": "^4.23.12",
+		"typescript": "^7.0.2"
+	},
+	"dependencies": {
+		"cloudflare": "^7.0.0",
+		"dotenv": "^17.4.2",
+		"express": "^5.2.1",
+		"multer": "^2.2.0"
+	}
+}
