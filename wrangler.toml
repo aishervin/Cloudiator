@@ -1,6 +1,6 @@
 name = "cloudiator"
 compatibility_date = "2026-08-28"
-pages_build_output_dir = "./dist"
+pages_build_output_dir = "dist"
 compatibility_flags = ["nodejs_compat"]
 
 [[kv_namespaces]]
